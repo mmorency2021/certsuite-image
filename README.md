@@ -19,3 +19,6 @@ podman run --rm --network host -v /root/certsuite/config/:/usr/certsuite/config/
 ```
 
 ## after share will us the containt of the results directory 
+
+## if for some reason the command doesnt work without the option -k , know that once you login using oc cmd, it updated to an ~/.config/kubeconfig.  copy that file to your config directory. 
+
